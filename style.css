@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+}
+svg {
+    width:376px;
+    stroke-linecap: round;
+    stroke: rgba(255, 255, 255, 0.096);
+    fill: none;
+    stroke-width: 7%;
+}
+svg use {
+    stroke: #ff215a;
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+    to{
+        stroke-dashoffset: 0px;
+    }
+}
